@@ -24,13 +24,16 @@
             <nav class="nav bd-container">
                 <a href="index.html" class="nav__logo">Conitta</a>
 
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="index.html" class="nav__link active-link">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
                         <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+                        <li class="nav__item"><a href="#info" class="nav__link">Contact us</a></li>
 
                         <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
                     </ul>
@@ -42,7 +45,7 @@
             </nav>
         </header>
         <!--========== MENU BAR ==========-->
-            <div class="sidenav">
+            <div class="sidenav" id="sidenav">
                 <a href="#most-selling">Most Selling</a>
                 <a href="#cass">Casseroles</a>
                 <a href="#bowls">Conitta Bowls</a>
@@ -162,6 +165,53 @@
             </section>
             </div>
         </section>
+          <!--========== SCROLL REVEAL ==========-->
+          <script src="https://unpkg.com/scrollreveal"></script>
 
+          <!--========== MAIN JS ==========-->
+          <script src="assets/js/main.js"></script>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content" id="about">
+                    <a href="#index.html" class="footer__logo">Conitta</a>
+                    <span class="footer__description">Restaurant</span>
+                    <div>
+                        <a href="https://www.facebook.com/hagarrhatem/" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/conitta_eg/?hl=en" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__content" id="services">
+                    <h3 class="footer__title">Services</h3>
+                    <ul>
+                        <li><a href="#contact" class="footer__link">Delivery</a></li>
+                        <li><a href="#menu" class="footer__link">Pricing</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content" id="info">
+                    <h3 class="footer__title">Information</h3>
+                    <ul>
+                        <li><a href="#contact" class="footer__link">Contact us</a></li>
+                        <li><a href="#" class="footer__link">Privacy policy</a></li>
+                        <li><a href="#" class="footer__link">Terms of services</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Adress</h3>
+                    <ul>
+                        <li>4th</li>
+                        <li>Street 261</li>
+                        <li>Maadi</li>
+                        <li>Open daily from 1PM to 11PM</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2021 Conitta. All right reserved</p>
+        </footer>
 </body>
 </html>
